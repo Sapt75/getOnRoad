@@ -1,0 +1,34 @@
+.acc-one .acc-one-head button{
+    padding: 0;
+}
+.acc-main .accordion-common {
+    border: none;
+    padding-block: 8px;
+}
+
+.acc-main .accordion-common button{
+    border: none;
+    padding: 0;
+    
+}
+.acc-main .accordion-common button :focus{
+    color: unset;
+    box-shadow: none;
+}
+
+
+.acc-main .accordion-common .accordion-header .accordion-button:focus{
+    color: unset;
+    box-shadow: none;
+}
+
+
+.acc-main .accordion-common .accordion-header .accordion-button:not(.collapsed){
+    color: unset;
+    box-shadow: none;
+    background-color: unset;
+}
+.acc-main .accordion-common .accordion-header .accordion-button::after{
+    background-image: url(../images/icons/plus.png);
+}
+

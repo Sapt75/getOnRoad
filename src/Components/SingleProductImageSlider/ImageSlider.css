@@ -1,0 +1,28 @@
+.tabs-image-type li button{
+    background-color: transparent;
+    border: 0;
+    color: gray;
+}
+.carousel .control-dots{
+    display: none;
+}
+.tabs-image-type li button:hover{
+    color: #4d9de6;
+}
+.tabs-image-type li button:active{
+    color: #4d9de6;
+}
+.carousel .thumb.selected{
+    border: unset !important;
+}
+
+@media only screen and (max-width: 540px) {
+    .carousel .thumbs-wrapper{
+        margin: 0 !important;
+    }
+    .carousel .thumbs-wrapper .thumbs{
+        margin: 0;
+    }
+
+}
+
